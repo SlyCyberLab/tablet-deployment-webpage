@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>INOVAXE</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>INOVAXE</h1>
+    </header>
+
+    <main>
+        <div class="input-container">
+            <input type="text" id="tabletName" placeholder="Enter tablet name...">
+            <input type="text" id="tabletSerial" placeholder="Enter tablet serial number..." style="margin-top: 0.5rem;">
+            <div id="suggestions" class="suggestions"></div>
+            <button id="submitBtn">Submit</button>
+        </div>
+
+        <div class="history-container">
+            <h2>Previous Entries</h2>
+            <div id="historyList" class="history-list"></div>
+            <button id="clearHistoryBtn" class="clear-history-btn">Clear History</button>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
