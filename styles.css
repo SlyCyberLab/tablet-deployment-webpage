@@ -53,6 +53,10 @@ input[type="text"]:focus {
     outline: none;
 }
 
+input[type="text"]#tabletSerial {
+    text-transform: uppercase;
+}
+
 .suggestions {
     background: white;
     border-radius: 8px;
