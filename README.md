@@ -1,4 +1,4 @@
-# Tablet Deployment Tracker
+# INOVAXE Tablet Deployment Tracker
 
 A simple web application for tracking tablet deployments and managing deployment history.
 
@@ -14,7 +14,7 @@ A simple web application for tracking tablet deployments and managing deployment
 
 1. Clone the repository:
 ```bash
-git clone [your-repository-url]
+git clone https://github.com/Emslyyy/tablet-deployment-webpage.git
 ```
 
 2. Open `index.html` in your web browser
