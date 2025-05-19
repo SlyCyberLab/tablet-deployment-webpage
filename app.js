@@ -17,6 +17,9 @@ class TabletDeploymentApp {
         this.input.addEventListener('input', () => this.showSuggestions());
         this.submitBtn.addEventListener('click', () => this.handleSubmit());
         this.clearHistoryBtn.addEventListener('click', () => this.clearHistory());
+        this.serialInput.addEventListener('input', () => {
+            this.serialInput.value = this.serialInput.value.toUpperCase();
+        });
     }
 
     showSuggestions() {
